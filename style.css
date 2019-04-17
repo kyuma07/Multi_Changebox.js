@@ -8,28 +8,21 @@ input{
 	display:inline-block;
 }
 
+body{
+	background: #DCF0F1;
+}
+
 #container{
-	width:30%;
-	margin:0 auto;
+	width:40%;
+	height:600px;
+	margin:10px auto 0 auto;
+	background:#fff;
+	text-align: center;
+	padding-top:10px;
 }
 
-#message li{
-	color:red;
-	list-style: none;
-}
-
-p{
-	margin-bottom:5px;
-}
-
-#title{
-	margin-bottom: 10px;
-	font-size: 16px;
-	padding:5px;
-}
-
-#category{
-	margin-bottom: 10px;
+.check_box{
+	margin-bottom:10px;
 }
 
 .check{
@@ -41,14 +34,5 @@ p{
 
 #all_remove{
 	margin-bottom:10px;
-}
-
-textarea{
-	padding:5px;
-	font-size: 14px;
-}
-
-#btn{
-	text-align:right;
 }
 
